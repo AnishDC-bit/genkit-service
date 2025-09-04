@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "license": "MIT",
-  "type": "commonjs",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "ts-node-dev src/server.ts",
-    "build": "tsc",
-    "render-build": "npm install && npm run build"
+    "dev": "ts-node-dev server.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
